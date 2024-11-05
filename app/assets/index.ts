@@ -1,4 +1,4 @@
-import profile from "./profile.png";
+import profile from "./profile.jpeg";
 import tsLogo from "./tsLogo.png";
 import reduxLogo from "./reduxLogo.png";
 import reactQueryLogo from "./reactQueryLogo.png";

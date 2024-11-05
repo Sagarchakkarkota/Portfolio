@@ -1,18 +1,23 @@
-import Image from "next/image";
-import React from "react";
-import { Images } from "../assets";
-import { logoArray } from "./home.constants";
+"use client";
+import React, { useEffect, useState } from "react";
 import TitleSection from "./_components/TitleSection";
 import TechnologiesSection from "./_components/TechnologiesSection";
+import ExperienceSection from "./_components/ExperienceSection";
+// import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col gap-10 p-10 w-full bg-black text-offWhite">
-      <TitleSection />
-      <div className="w-full h-1 bg-black relative overflow-hidden">
-        <div className="h-full bg-white animation-fill" />
+    <div className="min-h-screen flex justify-center items-center gap-2 p-10 bg-primary">
+      <div className="min-h-screen w-[1px] bg-secondary/40 animate-pulse" />
+      {/* <motion.div> */}
+      <div className="flex flex-col w-full  text-offWhite">
+        <TitleSection />
+        <TechnologiesSection />
+        <ExperienceSection />
       </div>
-      <TechnologiesSection />
+      {/* </motion.div> */}
+
+      <div className="min-h-screen w-[1px] bg-secondary/40 animate-pulse" />
     </div>
   );
 };

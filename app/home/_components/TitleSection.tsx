@@ -1,15 +1,29 @@
+"use client";
 import { Images } from "@/app/assets";
+import SectionWrapper from "@/components/wrappers/SectionWrapper";
 import Image from "next/image";
 import React from "react";
 
 const TitleSection = () => {
   return (
-    <section className="w-full flex justify-center items-start">
-      <div className="w-3/5 p-10">
+    <SectionWrapper>
+      <div className="w-6/12">
         <h1 className="text-[3rem]">Sagar Chakkarkota</h1>
-        <h3 className="text-3xl animate-pulse text-primary/80">
-          React Js Developer
-        </h3>
+        <div className="flex justify-start items-center">
+          <button
+            onClick={() => {
+              window.open("https://react.dev/", "_blank");
+            }}
+            className="bg-primary"
+          >
+            <Image
+              src={Images.reactLogo}
+              alt={"react logo"}
+              className="w-20 h-20 rounded-full p-4 object-cover ring ring-transparent animate-spin"
+            />
+          </button>
+          <h3 className="text-3xl text-secondary/80">React Js Developer</h3>
+        </div>
         <p className="text-sm mt-6">
           Experienced in developing user-friendly insurance platforms using
           React.js, Next.js, TypeScript, and Tailwind CSS. Skilled in ensuring
@@ -23,10 +37,10 @@ const TitleSection = () => {
         <Image
           src={Images.profile}
           alt="Profile picture"
-          className="w-80 opacity-70 rounded-lg"
+          className="object-cover opacity-90 rounded-lg"
         />
       </div>
-    </section>
+    </SectionWrapper>
   );
 };
 
