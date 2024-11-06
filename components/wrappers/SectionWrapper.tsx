@@ -5,11 +5,7 @@ const SectionWrapper = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  return (
-    <section className={`${className} p-10 flex items-center justify-center`}>
-      {children}
-    </section>
-  );
+  return <section className={`${className}`}>{children}</section>;
 };
 
 export default SectionWrapper;
