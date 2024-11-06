@@ -1,12 +1,16 @@
 "use client";
 import { Images } from "@/app/assets";
-import SectionWrapper from "@/components/wrappers/SectionWrapper";
 import Image from "next/image";
-import React from "react";
+import { motion } from "framer-motion";
 
 const TitleSection = () => {
   return (
-    <SectionWrapper>
+    <motion.div
+      initial={{ x: -10, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      transition={{ duration: 0.7 }}
+      className="p-10 flex items-center justify-center"
+    >
       <div className="w-6/12">
         <h1 className="text-[3rem]">Sagar Chakkarkota</h1>
         <div className="flex justify-start items-center">
@@ -40,7 +44,7 @@ const TitleSection = () => {
           className="object-cover opacity-90 rounded-lg"
         />
       </div>
-    </SectionWrapper>
+    </motion.div>
   );
 };
 

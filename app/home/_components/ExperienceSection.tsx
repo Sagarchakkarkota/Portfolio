@@ -1,9 +1,13 @@
-import SectionWrapper from "@/components/wrappers/SectionWrapper";
-import React from "react";
+import { motion } from "framer-motion";
 
 const ExperienceSection = () => {
   return (
-    <SectionWrapper className="gap-8 flex-col">
+    <motion.div
+      initial={{ x: -10, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      transition={{ duration: 0.7 }}
+      className="p-10 flex gap-8 flex-col items-center justify-center"
+    >
       <h1 className="text-3xl">Experience</h1>
       <div className="flex gap-5">
         <div className="w-48">
@@ -28,7 +32,7 @@ const ExperienceSection = () => {
           user-friendly platforms.
         </p>
       </div>
-    </SectionWrapper>
+    </motion.div>
   );
 };
 
