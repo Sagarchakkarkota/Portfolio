@@ -6,15 +6,17 @@ const ExperienceSection = () => {
       initial={{ x: -10, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
-      className="p-10 flex gap-8 flex-col items-center justify-center"
+      className="flex flex-col items-center justify-center gap-8 max-sm:gap-2"
     >
-      <h1 className="text-3xl">Experience</h1>
-      <div className="flex gap-5">
-        <div className="w-48">
-          <h1 className="text-md font-semibold">Fyntune Solutions</h1>
+      <h1 className="text-3xl max-sm:text-xl">Experience</h1>
+      <div className="flex max-sm:flex-col gap-5 max-sm:gap-2 justify-center items-center">
+        <div className="w-48 max-sm:w-full">
+          <h1 className="text-md max-sm:text-sm font-semibold">
+            Fyntune Solutions
+          </h1>
           <p className="text-sm">Sep, 2023 - Present</p>
         </div>
-        <p className="flex-1">
+        <p className="flex-1 max-sm:text-xs">
           Over the past month, I focused on UI fixes for Term and Investment
           Insurance Platforms, enhancing user interface consistency and
           improving user experience through React.js, Redux Toolkit Query, and
