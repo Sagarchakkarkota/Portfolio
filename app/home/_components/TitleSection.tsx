@@ -1,5 +1,5 @@
 "use client";
-import { Images } from "@/app/assets";
+import { Images } from "@/app/assets/images";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -9,17 +9,17 @@ const TitleSection = () => {
       initial={{ x: -10, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
-      className="flex max-sm:flex-col items-center justify-center"
+      className="flex max-sm:flex-col gap-4 items-center justify-center"
     >
       <div className="flex-1 flex justify-center items-center">
         <Image
           src={Images.profile}
           alt="Profile picture"
-          className="object-cover opacity-90 rounded-lg"
+          className="object-cover rounded-lg"
         />
       </div>
       <div className="w-6/12 max-sm:w-full">
-        <h1 className="text-[3rem] max-sm:text-xl">Sagar Chakkarkota</h1>
+        <h1 className="text-[3rem] max-sm:text-3xl">Sagar Chakkarkota</h1>
         <div className="flex justify-start items-center">
           <button
             onClick={() => {

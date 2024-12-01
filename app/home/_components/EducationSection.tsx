@@ -11,7 +11,7 @@ const EducationSection = () => {
     >
       <h1 className="text-3xl max-sm:text-xl">Education</h1>
       <div className="w-full flex max-sm:flex-col gap-5 max-sm:gap-2 max-sm:justify-center items-center">
-        <div className="w-48 max-sm:w-full">
+        <div className="w-48 max-sm:hidden">
           <FaUserGraduate className="size-32 max-sm:size-12" />
         </div>
         <div className="flex-1 max-sm:w-full">
