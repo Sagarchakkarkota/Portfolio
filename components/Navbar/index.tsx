@@ -1,7 +1,4 @@
 "use client";
-import { UI } from "@/uiComponents";
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareGithub, FaSquarePhone } from "react-icons/fa6";
 
 const Navbar = () => {
   return (

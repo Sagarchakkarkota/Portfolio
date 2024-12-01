@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import TitleSection from "./_components/TitleSection";
 import TechnologiesSection from "./_components/TechnologiesSection";
 import ExperienceSection from "./_components/ExperienceSection";

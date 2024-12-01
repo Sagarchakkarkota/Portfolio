@@ -1,9 +1,5 @@
 import { UI } from "@/uiComponents";
-import React from "react";
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareGithub, FaSquarePhone } from "react-icons/fa6";
 import { HiArrowDownTray } from "react-icons/hi2";
-import { SiGmail } from "react-icons/si";
 import { FOOTER_BUTTONS_DATA } from "./footer.constant";
 
 const Footer = () => {
