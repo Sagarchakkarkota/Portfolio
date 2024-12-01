@@ -1,4 +1,3 @@
-import { link } from "fs";
 import { Images } from "../assets/images";
 
 export const logoArray = [
