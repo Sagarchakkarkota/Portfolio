@@ -19,7 +19,9 @@ const TitleSection = () => {
         />
       </div>
       <div className="w-6/12 max-sm:w-full">
-        <h1 className="text-[3rem] max-sm:text-3xl">Sagar Chakkarkota</h1>
+        <h1 className="text-[3rem] max-sm:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">
+          Sagar Chakkarkota
+        </h1>
         <div className="flex justify-start items-center">
           <button
             onClick={() => {
