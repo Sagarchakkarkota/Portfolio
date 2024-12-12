@@ -25,7 +25,7 @@ const Footer = () => {
             buttonType="secondary"
             icon={<button.icon className="size-8 max-sm:size-7" />}
             onClick={() => {
-              window.open(button.link), "_blank";
+              window.open(button.link, "_blank");
             }}
           />
         ))}
