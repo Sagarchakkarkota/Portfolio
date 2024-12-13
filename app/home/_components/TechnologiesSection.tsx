@@ -9,10 +9,10 @@ const TechnologiesSection = () => {
       initial={{ x: -10, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
-      className="flex flex-col items-center justify-center gap-8 max-sm:gap-2"
+      className="p-2 md:p-4 rounded-lg shadow-blue/40 shadow-lg border border-blue/40 flex flex-col items-center justify-center gap-8 max-sm:gap-2"
     >
       <h1 className="text-3xl max-sm:text-xl">Technologies</h1>
-      <div className="max-sm:max-w-[calc(100vw-100px)] flex gap-5 max-sm:overflow-auto">
+      <div className="max-sm:max-w-[calc(100vw-20px)] flex gap-5 max-sm:overflow-auto">
         {logoArray.map((logo) => (
           <button
             key={logo.alt}

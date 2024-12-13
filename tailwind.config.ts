@@ -14,6 +14,7 @@ const config: Config = {
         primary: "#000000",
         secondary: "#F2F0EF",
         offWhite: "#F2F0EF",
+        blue: "#0EA5E9",
       },
     },
   },

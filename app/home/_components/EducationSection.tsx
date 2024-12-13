@@ -7,7 +7,7 @@ const EducationSection = () => {
       initial={{ x: -10, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
-      className="flex flex-col items-center justify-center gap-8 max-sm:gap-2"
+      className="p-2 md:p-4 rounded-lg shadow-blue/40 shadow-lg border border-blue/40 flex flex-col items-center justify-center gap-8 max-sm:gap-2"
     >
       <h1 className="text-3xl max-sm:text-xl">Education</h1>
       <div className="w-full flex max-sm:flex-col gap-5 max-sm:gap-2 max-sm:justify-center items-center">
