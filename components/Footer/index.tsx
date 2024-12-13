@@ -18,12 +18,12 @@ const Footer = () => {
           <HiArrowDownTray className="size-7" />
         </button>
       </div>
-      <div className="">
+      <div className="flex gap-4 max-sm:gap-2 justify-center items-center">
         {FOOTER_BUTTONS_DATA.map((button) => (
           <UI.Button
             key={button.id}
-            buttonType="secondary"
-            icon={<button.icon className="size-8 max-sm:size-7" />}
+            icon={<button.icon className="size-7" />}
+            className="border-none"
             onClick={() => {
               window.open(button.link, "_blank");
             }}
