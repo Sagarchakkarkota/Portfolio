@@ -15,7 +15,7 @@ const TitleSection = () => {
         <Image
           src={Images.profile}
           alt="Profile picture"
-          className="object-cover rounded-lg"
+          className="object-cover rounded-lg mix-blend-multiply"
         />
       </div>
       <div className="w-6/12 max-sm:w-full">
