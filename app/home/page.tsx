@@ -9,12 +9,11 @@ import Footer from "@/components/Footer";
 const Home = () => {
   return (
     <div className="min-h-screen flex justify-center items-center gap-2 p-10 max-sm:p-2 bg-primary">
-      {/* <div className="min-h-screen w-[1px] bg-secondary/40 animate-pulse" /> */}
       <motion.div
         initial={{ x: -10, opacity: 0 }}
         animate={{ x: 0, opacity: 100 }}
         transition={{ duration: 0.7, delay: 1 }}
-        className="w-full flex flex-col gap-10 max-sm:gap-8 text-offWhite"
+        className="w-full flex flex-col gap-10 max-sm:gap-8 text-offWhite z-50"
       >
         <TitleSection />
         <TechnologiesSection />

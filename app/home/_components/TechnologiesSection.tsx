@@ -19,7 +19,7 @@ const TechnologiesSection = () => {
             onClick={() => {
               window.open(logo.link, "_blank");
             }}
-            className="p-1 flex-shrink-0 bg-primary ring-1 ring-blue/20"
+            className="p-1 flex-shrink-0 bg-primary"
           >
             <Image
               src={logo.src}
