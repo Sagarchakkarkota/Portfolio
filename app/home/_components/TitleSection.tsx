@@ -1,8 +1,7 @@
 "use client";
 import { Images } from "@/app/assets/images";
-import Image from "next/image";
 import { motion } from "framer-motion";
-import galaxy from "../../assets/images/galaxy.png";
+import Image from "next/image";
 const TitleSection = () => {
   return (
     <motion.div
@@ -47,10 +46,6 @@ const TitleSection = () => {
           focus on improving user experiences through effective frontend
           solutions.
         </p>
-        <div
-          className="w-full h-48 bg-no-repeat bg-cover"
-          style={{ backgroundImage: "url(" + galaxy + ")" }}
-        ></div>
       </div>
     </motion.div>
   );
