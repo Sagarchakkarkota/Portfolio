@@ -2,7 +2,7 @@
 import { Images } from "@/app/assets/images";
 import Image from "next/image";
 import { motion } from "framer-motion";
-
+import galaxy from "../../assets/images/galaxy.png";
 const TitleSection = () => {
   return (
     <motion.div
@@ -15,7 +15,7 @@ const TitleSection = () => {
         <Image
           src={Images.profile}
           alt="Profile picture"
-          className="object-cover rounded-lg mix-blend-multiply"
+          className="object-cover rounded-lg"
         />
       </div>
       <div className="w-6/12 max-sm:w-full">
@@ -47,6 +47,10 @@ const TitleSection = () => {
           focus on improving user experiences through effective frontend
           solutions.
         </p>
+        <div
+          className="w-full h-48 bg-no-repeat bg-cover"
+          style={{ backgroundImage: "url(" + galaxy + ")" }}
+        ></div>
       </div>
     </motion.div>
   );
