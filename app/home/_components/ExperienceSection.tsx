@@ -9,7 +9,7 @@ const ExperienceSection = () => {
       initial={{ x: -10, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
-      className="p-2 md:p-4 rounded-lg shadow-blue/40 shadow-lg border border-blue/40 flex flex-col items-center justify-center gap-8 max-sm:gap-2"
+      className="p-2 md:p-4 rounded-lg shadow-blue/20 shadow-lg border border-blue/40 flex flex-col items-center justify-center gap-8 max-sm:gap-2"
     >
       <h1 className="text-3xl max-sm:text-xl">Experience</h1>
       <div className="flex max-sm:flex-col gap-5 max-sm:gap-2 justify-center items-center">

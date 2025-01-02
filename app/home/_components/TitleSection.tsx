@@ -39,7 +39,7 @@ const TitleSection = () => {
             React Js Developer
           </h3>
         </div>
-        <p className="p-2 md:p-4 rounded-lg shadow-blue/40 shadow-lg border border-blue/40 text-sm max-sm:text-xs mt-6 max-sm:mt-2 ">
+        <p className="p-2 md:p-4 rounded-lg shadow-blue/20 shadow-lg border border-blue/40 text-sm max-sm:text-xs mt-6 max-sm:mt-2 ">
           Experienced in developing user-friendly insurance platforms using
           React.js, Next.js, TypeScript, and Tailwind CSS. Skilled in ensuring
           UI consistency, performance optimization, and seamless API integration
