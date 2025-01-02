@@ -6,6 +6,7 @@ import reactLogo from "./reactLogo.png";
 import nextLogo from "./nextLogo.png";
 import tailwindLogo from "./tailwindLogo.png";
 import javascriptLogo from "./javascriptLogo.png";
+import galaxy from "./galaxy.png";
 
 export const Images = {
   profile,
@@ -16,4 +17,5 @@ export const Images = {
   nextLogo,
   tailwindLogo,
   javascriptLogo,
+  galaxy,
 };

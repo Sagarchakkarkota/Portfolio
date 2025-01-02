@@ -1,7 +1,6 @@
-import { Montserrat_Alternates } from "next/font/google";
 import "./globals.css";
 
-const inter = Montserrat_Alternates({ weight: "400", subsets: ["latin"] });
+// const inter = Montserrat_Alternates({ weight: "400", subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -15,7 +14,7 @@ export default function RootLayout({
         <meta name="description" content="Sagar Chakkarkota portfolio" />
         <link rel="icon" href="/profilePhoto.png" />
       </head>
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
